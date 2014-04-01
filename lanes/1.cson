@@ -1,0 +1,297 @@
+{
+  mainBox:
+    height: 467
+    _isVisible: true
+
+  workspaces:
+    workspaces: [
+      name: "Intro"
+      propHolders: [
+        {
+          id: "no-id-Intro-Overlay-Opacity"
+          _expanded: true
+          actorPropId: "no-id-Intro-Overlay-Opacity"
+          _height: 179
+        }
+        {
+          id: "no-id-Ballroom-View Piston-Y"
+          _expanded: true
+          actorPropId: "no-id-Ballroom-View Piston-Y"
+          _height: 183
+        }
+        {
+          id: "no-id-Intro-The Text-Z"
+          _expanded: true
+          actorPropId: "no-id-Intro-The Text-Z"
+          _height: 119
+        }
+        {
+          id: "no-id-Intro-The Text-Opacity"
+          _expanded: true
+          actorPropId: "no-id-Intro-The Text-Opacity"
+          _height: 80
+        }
+        {
+          id: "no-id-Ballroom-View-Scale X"
+          _expanded: true
+          actorPropId: "no-id-Ballroom-View-Scale X"
+          _height: 194
+        }
+        {
+          id: "no-id-Ballroom-View-Scale Y"
+          _expanded: true
+          actorPropId: "no-id-Ballroom-View-Scale Y"
+          _height: 170
+        }
+        {
+          id: "no-id-Ballroom-View-X"
+          _expanded: true
+          actorPropId: "no-id-Ballroom-View-X"
+          _height: 80
+        }
+        {
+          id: "no-id-Ballroom-View-Y"
+          _expanded: true
+          actorPropId: "no-id-Ballroom-View-Y"
+          _height: 80
+        }
+      ]
+    ]
+    _activeWorkspaceName: "Intro"
+
+  timeControl:
+    t: 32089.343952139083
+    _focus:
+      from: 25334.413450938377
+      to: 36594.875861713634
+
+    _lastPlayedTickAt: 0
+
+  timeline:
+    _allProps:
+      "no-id-Intro-Overlay-Opacity":
+        pacs:
+          _idCounter: 12
+          chronologyLength: 5644.937803414513
+          chronology:
+            points: [
+              {
+                t: 486.84210526315786
+                value: 0.79
+                id: "no-id-Intro-Overlay-Opacity-point-0"
+                handler: [
+                  62.32057189941406
+                  0.05231250077486038
+                  38.87561798095703
+                  0.046780940145254135
+                ]
+              }
+              {
+                t: 2782.700714984627
+                value: 0.79
+                id: "no-id-Intro-Overlay-Opacity-point-1"
+                handler: [
+                  100
+                  0.07677672058343887
+                  1176.8504638671875
+                  -0.013200351037085056
+                ]
+              }
+              {
+                t: 5644.937803414513
+                value: 0
+                id: "no-id-Intro-Overlay-Opacity-point-2"
+                handler: [
+                  909.9002075195312
+                  -0.03299398347735405
+                  100
+                  0.07535310834646225
+                ]
+              }
+            ]
+            connectors: [
+              t: 2782.700714984627
+              id: "no-id-Intro-Overlay-Opacity-connector-12"
+            ]
+
+      "no-id-Intro-The Text-Z":
+        pacs:
+          _idCounter: 0
+          chronologyLength: 2537.606378300095
+          chronology:
+            points: [
+              t: 2537.606378300095
+              value: 2
+              id: "no-id-Intro-The Text-Z-point-0"
+              handler: [
+                100
+                4.936708927154541
+                62.23799514770508
+                2.374619483947754
+              ]
+            ]
+            connectors: []
+
+      "no-id-Ballroom-View Piston-Y":
+        pacs:
+          _idCounter: 17
+          chronologyLength: 63165.79260043652
+          chronology:
+            points: [
+              {
+                t: 3905.4649289346917
+                value: 0
+                id: "no-id-Ballroom-View Piston-Y-point-0"
+                handler: [
+                  100
+                  0
+                  3009.30615234375
+                  -11.339649200439453
+                ]
+              }
+              {
+                t: 12837.723842234704
+                value: -800
+                id: "no-id-Ballroom-View Piston-Y-point-1"
+                handler: [
+                  2018.4227294921875
+                  7.45797061920166
+                  100
+                  3.25
+                ]
+              }
+              {
+                t: 63165.79260043652
+                value: -800
+                id: "no-id-Ballroom-View Piston-Y-point-17"
+                handler: [
+                  100
+                  -93.43431854248047
+                  100
+                  -93.43431854248047
+                ]
+              }
+            ]
+            connectors: [
+              t: 3905.4649289346917
+              id: "no-id-Ballroom-View Piston-Y-connector-14"
+            ]
+
+      "no-id-Intro-The Text-Opacity":
+        pacs:
+          _idCounter: 3
+          chronologyLength: 5509.912717043959
+          chronology:
+            points: [
+              {
+                t: 3668.407822624626
+                value: 1
+                id: "no-id-Intro-The Text-Opacity-point-0"
+                handler: [
+                  100
+                  0.15714286267757416
+                  692.72021484375
+                  0.0414285734295845
+                ]
+              }
+              {
+                t: 5509.912717043959
+                value: 0
+                id: "no-id-Intro-The Text-Opacity-point-1"
+                handler: [
+                  493.6386413574219
+                  0.043714284896850586
+                  100
+                  0.10157142579555511
+                ]
+              }
+            ]
+            connectors: [
+              t: 3668.407822624626
+              id: "no-id-Intro-The Text-Opacity-connector-3"
+            ]
+
+      "no-id-Ballroom-View-Scale X":
+        pacs:
+          _idCounter: 5
+          chronologyLength: 32075.15337982395
+          chronology:
+            points: [
+              {
+                t: 27518.361795211546
+                value: 1
+                id: "no-id-Ballroom-View-Scale X-point-0"
+                handler: [
+                  100
+                  0.12250000238418579
+                  1512.3482666015625
+                  0.010687499307096004
+                ]
+              }
+              {
+                t: 32075.15337982395
+                value: 0.6
+                id: "no-id-Ballroom-View-Scale X-point-1"
+                handler: [
+                  1581.0584716796875
+                  0
+                  100
+                  0.09295625239610672
+                ]
+              }
+            ]
+            connectors: [
+              t: 27518.361795211546
+              id: "no-id-Ballroom-View-Scale X-connector-5"
+            ]
+
+      "no-id-Ballroom-View-Scale Y":
+        pacs:
+          _idCounter: 4
+          chronologyLength: 32061.898545765318
+          chronology:
+            points: [
+              {
+                t: 27497.339364504736
+                value: 1
+                id: "no-id-Ballroom-View-Scale Y-point-0"
+                handler: [
+                  100
+                  0.0949999988079071
+                  1526.865966796875
+                  -0.06473077088594437
+                ]
+              }
+              {
+                t: 32061.898545765318
+                value: 0.6
+                id: "no-id-Ballroom-View-Scale Y-point-1"
+                handler: [
+                  1652.5313720703125
+                  0
+                  100
+                  0.09905000030994415
+                ]
+              }
+            ]
+            connectors: [
+              t: 27497.339364504736
+              id: "no-id-Ballroom-View-Scale Y-connector-4"
+            ]
+
+  timelineEditor:
+    scrollTop: 813
+    guides:
+      _list: [
+        2939.7716748610414
+        12834.572870944929
+        20000
+        27497.900398116646
+        36801.69625113447
+        44584.69860557458
+        55415.68837675752
+        58537.5193367185
+        60782.89494402698
+        66246.38006156772
+      ]
+}
