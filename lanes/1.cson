@@ -1,7 +1,7 @@
 {
   mainBox:
-    height: 467
-    _isVisible: true
+    height: 302
+    _isVisible: false
 
   workspaces:
     workspaces: [
@@ -60,10 +60,10 @@
     _activeWorkspaceName: "Intro"
 
   timeControl:
-    t: 32089.343952139083
+    t: 1859.0000000025611
     _focus:
-      from: 25334.413450938377
-      to: 36594.875861713634
+      from: 0
+      to: 11260.46241077526
 
     _lastPlayedTickAt: 0
 
@@ -280,7 +280,7 @@
             ]
 
   timelineEditor:
-    scrollTop: 813
+    scrollTop: 622
     guides:
       _list: [
         2939.7716748610414
