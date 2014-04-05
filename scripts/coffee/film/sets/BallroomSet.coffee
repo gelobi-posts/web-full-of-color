@@ -37,6 +37,21 @@ module.exports = class BallroomSet extends Set
 
 		@ballsamic = new Ballsamic @_normalize(1680), @_normalize(800), '../images/ballroom/the-ball.png', '../images/ballroom/the-ball.png'
 
+		document.body.addEventListener 'mousemove', (event) =>
+
+			event.preventDefault()
+			event.stopPropagation()
+
+			s = @film.display.airBox.scale
+
+			if s < 1
+
+				@ballsamic.reposMouse ((event.pageX / s) - @film.display.airBox.x) - (@film.display.airBox.width * (1 - s) / (2 * s)), (event.pageY / s)
+
+			else
+
+				@ballsamic.reposMouse (event.pageX), (event.pageY / s - @film.display.airBox.y)
+
 		piston.adopt @ballsamic.canvas
 
 		@ballsamic.canvas.style.position = 'absolute'
